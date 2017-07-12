@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94B6D62E1F13F8B10044B90B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6D62D1F13F8B10044B90B /* PostCell.swift */; };
+		94B6D6301F1405450044B90B /* NewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B6D62F1F1405450044B90B /* NewPostViewController.swift */; };
 		94F67A0D1F13EA4300D44331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F67A0C1F13EA4300D44331 /* AppDelegate.swift */; };
 		94F67A0F1F13EA4300D44331 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F67A0E1F13EA4300D44331 /* MasterViewController.swift */; };
 		94F67A111F13EA4300D44331 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F67A101F13EA4300D44331 /* DetailViewController.swift */; };
 		94F67A141F13EA4300D44331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F67A121F13EA4300D44331 /* Main.storyboard */; };
 		94F67A161F13EA4300D44331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94F67A151F13EA4300D44331 /* Assets.xcassets */; };
 		94F67A191F13EA4300D44331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94F67A171F13EA4300D44331 /* LaunchScreen.storyboard */; };
+		94F67A211F13EDCF00D44331 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F67A201F13EDCF00D44331 /* Post.swift */; };
+		94F67A231F13EE9100D44331 /* SampleDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F67A221F13EE9100D44331 /* SampleDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94B6D62D1F13F8B10044B90B /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		94B6D62F1F1405450044B90B /* NewPostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewPostViewController.swift; path = ../NewPostViewController.swift; sourceTree = "<group>"; };
 		94F67A091F13EA4300D44331 /* ChatterBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatterBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94F67A0C1F13EA4300D44331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94F67A0E1F13EA4300D44331 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		94F67A151F13EA4300D44331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94F67A181F13EA4300D44331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94F67A1A1F13EA4300D44331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94F67A201F13EDCF00D44331 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		94F67A221F13EE9100D44331 /* SampleDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		94F67A0B1F13EA4300D44331 /* ChatterBox */ = {
 			isa = PBXGroup;
 			children = (
+				94B6D62F1F1405450044B90B /* NewPostViewController.swift */,
 				94F67A0C1F13EA4300D44331 /* AppDelegate.swift */,
 				94F67A0E1F13EA4300D44331 /* MasterViewController.swift */,
 				94F67A101F13EA4300D44331 /* DetailViewController.swift */,
 				94F67A121F13EA4300D44331 /* Main.storyboard */,
+				94F67A201F13EDCF00D44331 /* Post.swift */,
+				94F67A221F13EE9100D44331 /* SampleDate.swift */,
 				94F67A151F13EA4300D44331 /* Assets.xcassets */,
 				94F67A171F13EA4300D44331 /* LaunchScreen.storyboard */,
 				94F67A1A1F13EA4300D44331 /* Info.plist */,
+				94B6D62D1F13F8B10044B90B /* PostCell.swift */,
 			);
 			path = ChatterBox;
 			sourceTree = "<group>";
@@ -143,6 +155,10 @@
 				94F67A111F13EA4300D44331 /* DetailViewController.swift in Sources */,
 				94F67A0F1F13EA4300D44331 /* MasterViewController.swift in Sources */,
 				94F67A0D1F13EA4300D44331 /* AppDelegate.swift in Sources */,
+				94B6D6301F1405450044B90B /* NewPostViewController.swift in Sources */,
+				94F67A231F13EE9100D44331 /* SampleDate.swift in Sources */,
+				94F67A211F13EDCF00D44331 /* Post.swift in Sources */,
+				94B6D62E1F13F8B10044B90B /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +322,7 @@
 				94F67A1F1F13EA4300D44331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
